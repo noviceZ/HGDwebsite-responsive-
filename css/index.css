@@ -1,0 +1,143 @@
+
+/*border test*/
+* {
+	/*border: 1px solid #000000;*/
+}
+
+                                                       /*顶部欢迎语*/
+/*网页顶部欢迎语*/
+#rolling {
+	margin: 0;
+	font-size: 16px;
+	font-family:sans-serif;
+	color: #9D9D9D;
+}
+@media (max-width:768px) {
+	#rolling {
+		font-size: 10px;
+	}
+}
+
+                                                         /*导航条部分*/
+/*导航条1号*/
+#navbar-collapse-1 ul>li {
+	padding: 0 5px;
+}
+
+/*导航条1号的二级导航*/
+#navbar-collapse-1 li:last-of-type .dropdown-menu>li {
+	padding-top: 10px;
+}
+
+/*导航条一号外边距*/
+.navbar-default {
+	margin: 0 auto;
+}
+
+/*搜索框的搜索图标*/
+#img-search-btn {
+	padding: 5px 10px 0;
+	background-color: transparent;
+	border: none;
+}
+
+/*二号导航条边距*/
+#navbar-collapse-2 ul>li {
+	padding: 0 15px;
+}
+
+
+                                                        /*巨幕部分*/
+/*巨幕*/
+.jum-background {
+	background-color:#FFFFFF;
+}
+/*巨幕图片*/
+.jum-background .container>img {
+	padding: 85px 0 30px;
+	margin: 0 auto;
+}
+/*巨幕文字*/
+.jum-background .container>p {
+	width: 75%;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+
+.jum-background .container>p a {
+	width: 100%;
+	margin: 0 auto;
+}
+/*巨幕按钮图标*/
+.jum-background .container>button {
+	margin: 0 auto;
+	width: auto;
+}
+
+                                                                          /*主内容一区*/
+/*主内容一区---轮播图*/
+#Home {
+	padding: 50px 30px;
+}
+/*轮播图图片扩充*/
+#myCarousel .carousel-inner>div>img {
+	width: 100%;
+}
+
+/*col-md-6边距*/
+#Home .row .col-md-6 {
+	padding: 20px 10px;
+}
+
+                                                                           /*主内容二区*/
+/*主内容二区整体容器*/
+#Home-2 {
+	padding: 50px 30px;
+	background-color: #FFFFFF;
+}
+
+/*表格样式*/
+#dqjg table {
+	border: 1px solid #D3D3D3;
+	border-top: none;
+}
+
+                                                                          /*页脚*/
+/*页脚*/
+#foot {
+	padding: 10px 30px;
+	text-align: center;
+	background-color: #F5F5F5;
+}
+
+                                                                          /*通用*/
+/*背景色灰色*/
+.gray {
+	background-color: #F5F5F5;
+}
+
+/*红色字体*/
+#kslj table tr td a.font-red {
+	color: #FF0000;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+a:focus {
+	color: #000000;
+	text-decoration: none;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
